@@ -1,12 +1,7 @@
-(executable
- (name run_tests)
+(library
+ (name test_cyclotomic)
  (libraries
   alcotest
-  test_sub1
-  test_sub2
-))
-
-(alias
- (name runtest)
- (deps run_tests.exe)
- (action (run %{deps} -q --color=always)))
+  cyclotomic
+ )
+ (synopsis "Tests for cyclotomic"))

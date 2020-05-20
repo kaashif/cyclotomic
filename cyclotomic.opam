@@ -1,0 +1,18 @@
+opam-version: "1.2"
+maintainer: "kaashif@kaashif.co.uk"
+authors: ["Kaashif Hymabaccus"]
+homepage: "https://github.com/kaashif/cyclotomic"
+bug-reports: "https://github.com/kaashif/cuclotomic/issues"
+dev-repo: "https://github.com/kaashif/cyclotomic.git"
+
+build: [
+  ["dune" "subst"] {pinned}
+  ["dune" "build" "-p" name "-j" jobs]
+]
+
+build-test: ["dune" "runtest" "-p" name]
+
+depends: [
+  "dune" {build}
+  "alcotest" {test}
+]
