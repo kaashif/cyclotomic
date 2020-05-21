@@ -1,7 +1,0 @@
-(library
- (name test_cyclotomic)
- (libraries
-  alcotest
-  cyclotomic
- )
- (synopsis "Tests for cyclotomic"))

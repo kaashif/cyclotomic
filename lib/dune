@@ -1,5 +1,0 @@
-(library
- (name cyclotomic)
- (public_name cyclotomic)
- (libraries unix)
- (synopsis "Library for arithmetic on cyclotomic numbers"))
