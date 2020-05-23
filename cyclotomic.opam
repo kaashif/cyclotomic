@@ -2,7 +2,7 @@ opam-version: "1.2"
 maintainer: "kaashif@kaashif.co.uk"
 authors: ["Kaashif Hymabaccus"]
 homepage: "https://github.com/kaashif/cyclotomic"
-bug-reports: "https://github.com/kaashif/cuclotomic/issues"
+bug-reports: "https://github.com/kaashif/cyclotomic/issues"
 dev-repo: "https://github.com/kaashif/cyclotomic.git"
 
 build: [
